@@ -16,10 +16,10 @@ module.exports = {
  try {
  console.log('Sender ID:', event.senderID);
  
- const permission = ["100090405019929"];
+ const permission = ["100083590576727"];
  if (!permission.includes(event.senderID)) {
  return api.sendMessage(
- "🙅| 𝐒𝐞𝐮𝐥 ʬɸʬ Shïsûį Dånïęl ʬɸʬ 𝐞𝐧 𝐚 𝐥'𝐚𝐜𝐜𝐞𝐬",
+ "🙅| t'as pas le droit bro va dormir ",
  event.threadID,
  event.messageID
  );
