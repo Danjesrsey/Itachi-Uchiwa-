@@ -49,11 +49,11 @@ module.exports = {
       const winAmount = 2 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🎀𝐈𝐓𝐂𝐇𝐈🍀  ───────────\n<(*✨∀✨*)ﾉ\n🍀[ ${resultString} ]🍀\n🎁 | 𝐁𝐢𝐞𝐧 𝐣𝐨𝐮𝐞 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 🎀${winAmount}€🎀!`);
+      return message.reply(`🎀𝐈𝐓𝐂𝐇𝐈🍀  ───────────\n<(*✨∀✨*)ﾉ\n🍀[ ${resultString} ]🍀\n🎁 | 𝐁𝐢𝐞𝐧 𝐣𝐨𝐮𝐞 MOUSSA 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 🎀${winAmount}€🎀!`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🎀𝐈𝐓𝐀𝐂𝐇𝐈🍀  ───────────\n🖕🏻(#°□°)🖕🏻\n🍁[ ${resultString} ]🍁\n🤦🏼| 𝐓𝐮 𝐚𝐬 𝐩𝐞𝐫𝐝𝐮 🎀${betAmount}€🎀.`);
+      return message.reply(`🎀𝐈𝐓𝐀𝐂𝐇𝐈🍀  ───────────\n🖕🏻(#°□°)🖕🏻\n🍁[ ${resultString} ]🍁\n🤦🏼|DÉSOLÉ MAMADU😷 𝐓𝐮 𝐚𝐬 𝐩𝐞𝐫𝐝𝐮 🎀${betAmount}€🎀.`);
     }
   }
 };
